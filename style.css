@@ -1,0 +1,125 @@
+body {
+    display: block;
+    margin: 0;
+    font-family: "Roboto Mono", serif;
+  }
+  header {
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  h1 {
+    color: white;
+  }
+  nav {
+    display: flex;
+    padding: 10px 100px 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .login {
+    background-color: goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .register {
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    color: darkblue;
+  }
+  .bar-container {
+    color: blue;
+    display: flex;
+    background-color: rgb(196, 235, 250);
+    margin: 20px 100px 10px 100px;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .body-container {
+    text-align: center;
+    align-items: center;
+  }
+  .Card {
+    height: 530px;
+    width: 400px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .lorem {
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 100%;
+  }
+  .head-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .infor-part {
+    margin: 10px;
+  }
+  .image-card {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    gap: 20px;
+    justify-content: space-between;
+    position: relative;
+  }
+  .arrowUp {
+    position: fixed;
+    background-color: gold;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+    right: 20px;
+    bottom: 30px;
+  }
+  
